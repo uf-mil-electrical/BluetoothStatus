@@ -1,16 +1,8 @@
-1) Rename files in PCB folder with proper names according to project.
-	   Note: Altium project, schematic, and  pcb files should have same name.
-	   There are some situations in more complex designs in which this is not the
-	   case but for now follow this rule.
-	   Example: Template.PcbDoc -> YourProjectName.PcbDoc
-				Template.PrjPCB -> YourProjectName.PrjPCB
-				Template.SchDoc -> YourProjectName.SchDoc
-2) Populate Firmware folder with appropriate CCS/TrueStudio/Etc files.
-3) Populate Document folder with appropriate documents files for project.
-
 # Bluetooth Status Board
 
 This repository contains documentation and files for a wireless status and leak detection system. The system is intended to be used aboard the Subjugator robot and possibly other future robots as well. Using a microcontroller connected to multiple two-pin sherlocks headers, this status board is able to detect leaks and be programmed via a SWD interface to respond accordingly.
+
+The end goal of this system is to be able to interface with the status of the robot wirelessly via a Bluetooth application.
 
 ## Designers
 
